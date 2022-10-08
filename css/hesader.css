@@ -1,12 +1,16 @@
 
+@font-face {
+    font-family: arabic;
+    src: url(/cocon-next-arabic.ttf);
+  }
 .header-container {
     
     
-	height: 400vh;
+	height: 200vh;
     background-image: url('../image/back.svg');
     background-size:cover;
      
-    /* background-position: 30% -990%; */
+    background-position: 0% -490%;
    
 }
 
@@ -26,6 +30,8 @@
 
 
 .box-sz{
+    
+    font-weight: 100;
     width: 100%;
     padding-right: 50px;
     padding-left: 50px;
@@ -49,7 +55,6 @@
     position: fixed;
     top: 0;
     left: 0;
-    
     
     z-index: 9;
     transition: 0.7s;
@@ -136,19 +141,26 @@
 .hero-container {
     display: flex;
     position: absolute;
-    margin-top: 12%;
+    margin-top: 15%;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
+    width: 100%;
+}
+@media (min-width:999px) {
+    .hero-illustation{
+        width: 100px;  
+    }
+    
 }
 .hero-illustation{
-    width: 100%;  
+    width: 700px;  
 }
 .hero-content{
-    position: relative;
-    width: 80%;
+    
+    width: 350px;
 }
 .logo-h{
     width: 10px;
@@ -159,10 +171,54 @@
     height: 40px;
     
 }
+
+.hero-head{  
+    box-sizing: border-box;
+    
+    text-align: justify;
+    text-align: right; 
+    line-height: 1;
+}
 .font-weight-light{
-    text-align: left;
-    font-family: CoconNextArabic Light;
+    
+    text-transform: capitalize;
+    font-weight: 100;
+    font-family: arabic ;
     color: white;
         
 
+}
+.font-weight-bold {
+    text-align: right;
+    color: #fff;
+    font-family: arabic ;
+    font-weight: 100;
+   font-size: .7em;
+   
+    
+}
+.par-h{
+    display: inline-block;
+    text-align: justify;
+    text-align: right;
+    color: #fff; 
+    line-height: 1.4;
+   
+}
+.btn{
+    font-size: 35px;
+    width: clamp(180px,var(--btn-width),var(--btn-width));
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+
+    background: linear-gradient(to right,#9F19AB,#FF63CE);
+    color: white;
+}
+.btn-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#9F19AB,#FF63CE);
+    padding: 2.5px 2px;
 }
