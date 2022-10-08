@@ -3,18 +3,15 @@
     font-family: arabic;
     src: url('../fonts/cocon-next-arabic.ttf');
   }
-  .box-header{
-    display: block;
-    min-height: 500px;
-  }
+ 
 .header-container {
     
     
-	
+	height: 10%;
     background-image: url('../image/back.svg');
     background-size:cover;
     background-position: center;
-    min-height: 200vh;
+    min-height: 150vh;
     
 }
 
