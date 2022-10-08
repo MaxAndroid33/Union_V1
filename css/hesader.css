@@ -3,7 +3,7 @@
     
     
 	height: 400vh;
-    background-image: url('/image/SVG/back.svg');
+    background-image: url('../image/back.svg');
     background-size:cover;
      
     /* background-position: 30% -990%; */
