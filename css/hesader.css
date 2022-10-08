@@ -1,0 +1,172 @@
+
+.header-container {
+    
+    
+	height: 400vh;
+    background-image: url('/image/SVG/back.svg');
+    background-size:cover;
+     
+    /* background-position: 30% -990%; */
+   
+}
+
+@media (min-width: 992px){
+   
+}
+@media (min-width: 768px){
+    
+}
+@media (min-width: 576px){
+    
+}
+@media (min-width:1200px) {
+    
+}
+
+
+
+.box-sz{
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 2%;
+}
+.container ,.container-inner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+
+.container-inner {
+    max-width: 100%;
+      
+}
+
+.navbar{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    
+    z-index: 9;
+    transition: 0.7s;
+    color: #fff;
+}
+
+
+.navbar-brand{
+    
+    font-size: 1.8em;
+}
+.logo{
+    width: 10em;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    justify-content: space-between;
+
+}
+.container-inner{
+ width: 100%;
+ max-width: 0 auto;
+ font-size: 1.2em;
+}
+.nav-items-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+     
+    align-items: center;
+}
+.nav-item{
+    
+    
+    margin: 0 0 0 4%;
+}
+ 
+.navbar a{
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.3s;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+
+.navbar a{
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.3s;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+
+/* Animation */
+.navbar  a:hover{
+    color: #FF416C;
+    
+}
+
+.navbar ul li a:hover{
+    cursor: pointer;
+    border-bottom: 3px solid ;
+    border-radius: 7px;
+   
+}
+.logo:hover{
+   font-size: large;
+
+}
+
+.hero-container {
+    display: flex;
+    position: absolute;
+    margin-top: 12%;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.hero-illustation{
+    width: 100%;  
+}
+.hero-content{
+    position: relative;
+    width: 80%;
+}
+.logo-h{
+    width: 10px;
+    
+}
+.logo-h img{
+    width: 50px;
+    height: 40px;
+    
+}
+.font-weight-light{
+    
+    font-family: CoconNextArabic Light;
+    color: white;
+        text-align: justify;
+
+}
+.font-weight-bold{
+    position: absolute;
+    top
+}
