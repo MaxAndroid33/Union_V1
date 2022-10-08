@@ -1,4 +1,4 @@
-@media  (max-width: 1440px) {
+@media  (max-width: 1800px) {
     .header-container {
         
         min-height: 200vh;
@@ -19,10 +19,10 @@
     }
 
     .hero-illustation {
-        width: 750px;
+        width: 60%;
     }
 }
-@media  (max-width: 1200px) {
+@media  (max-width: 1280px) {
     .header-container {
         
         min-height: 200vh;
@@ -34,7 +34,7 @@
 
     .hero-content {
         display: inline-block;
-        width: 400px;
+        width:40%;
         font-size: 20px;
     }
 
@@ -43,11 +43,11 @@
     }
 
     .hero-illustation {
-        width: 460px;
+        width: 55%;
     }
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1070px) {
     .header-container {
         
         min-height: 300vh;
