@@ -1,5 +1,6 @@
 @import url('./header.css');
 @import url('./media/media_lg.css');
+@import url('./menu.css');
 
 body {
 
@@ -41,4 +42,5 @@ h5,
 h6 {
 
     margin-top: 0;
-    margin-bottom: .3re
+    margin-bottom: .3rem
+}

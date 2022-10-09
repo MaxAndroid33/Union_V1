@@ -92,16 +92,6 @@
     margin: 0 0 0 4%;
 }
 
-.navbar a {
-    text-decoration: none;
-    font-size: 0.9em;
-    transition: 0.3s;
-    font-weight: 600;
-    color: #fff;
-}
-
-
-
 
 .navbar a {
     text-decoration: none;
@@ -120,7 +110,7 @@
 
 }
 
-.navbar ul li a:hover {
+.nav-items-row .nav-link:hover {
     cursor: pointer;
     border-bottom: 3px solid;
     border-radius: 7px;
@@ -232,3 +222,15 @@
     background: transparent !important;
 
 }
+
+
+.navbar-active  {
+    background: #b07cff00;
+    backdrop-filter: blur(6px);
+    padding: 16px;
+    z-index: 100;
+  
+}
+
+
+
