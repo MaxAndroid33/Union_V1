@@ -2,18 +2,35 @@
     font-family: arabic;
     src: url('../fonts/cocon-next-arabic.ttf');
 }
+main{
+    width: 100%;
+    border: 10px solid black;
+}
 
+:root {
+    --fonts-desc: 20px;
+    --btn-width: 10%;
+    /* --font-size-h1: 35px; */
+}
 .header-container {
 
 
     height: 10%;
-    background-image: url('../image/back.svg');
-    background-size: cover;
-    background-position: center;
-    min-height: 150vh;
+    background-image: url('../image/header_back-01.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 400vh;
 
 }
-
+.footer-container{
+    height: 10%;
+    background-image: url('../image/footer_back-01.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height:400vh;
+}
 
 
 .box-sz {

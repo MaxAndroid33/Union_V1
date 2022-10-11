@@ -1,6 +1,10 @@
 
-
+:root{
+  --hight-menu-btn :32px;
+  --width-menu-btn :30px;
+}
 .navbar-container{
+  box-sizing: border-box;
   width: 40px;
   height: 40px;
   display: none;
@@ -15,8 +19,11 @@
 .menu-items li {
   list-style: none;
   margin-left: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  
+  text-align: center;
+  
+  font-size: 30px ;
 }
 
 .menu-items a {
@@ -24,6 +31,8 @@
   color: #444;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
+  
+ 
 }
 
 /* .menu-items a:hover {
@@ -43,28 +52,30 @@
   .navbar-container input[type="checkbox"] {
     position: absolute;
     display: block;
-    height: 32px;
-    width: 30px;
-   
+    height: var(--hight-menu-btn);
+    width: var(--width-menu-btn);
+    
     z-index: 5;
     opacity: 0;
   }
 
   .navbar-container .hamburger-lines {
     
-    height: 23px;
-    width: 35px;
     position: absolute;
+    height: var(--hight-menu-btn);
+    width: var(--width-menu-btn);
+    
     
     z-index: 2;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
   }
 
   .navbar-container .hamburger-lines .line {
     display: block;
-    height: 4px;
+    height: 2px;
     width: 100%;
     border-radius: 10px;
     background: white;
@@ -86,12 +97,12 @@
 
    .navbar-container .menu-items {
     transform: translate(-300% ,100%);
-    padding-top: 100px;
+    padding: 80%;
     background: rgba(249, 235, 235, 0.175) ;
     backdrop-filter: blur(7px) !important;
     border: .0625rem solid #e9ecef;
     height: 50vh;
-    max-width: 300px;
+    
     
     display: flex;
     flex-direction: column;
@@ -118,14 +129,7 @@
   background: rgba(1, 1, 1, 0.3)!important ;
 }
    
-   .menu-items li {
-    
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 30px !important;
-    font-weight: 500;
-  }
-
+  
  
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -136,6 +140,7 @@
 
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
     transform: rotate(35deg);
+    
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
@@ -144,26 +149,11 @@
 
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-35deg);
+    
   }
 
   
 
 
-@media (max-width: 500px) {
-  html {
-    font-size: 65%;
-  }
 
-  .navbar .menu-items li{
-      font-size: 1.6rem;
-  }
-
-  
-
-  .navbar .menu-items li {
-    margin-bottom: 2.5rem;
-    font-size: 1.8rem;
-    font-weight: 500;
-  }
-}
 
